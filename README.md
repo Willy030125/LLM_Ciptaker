@@ -1,14 +1,14 @@
 # LLM_Ciptaker (Final Project NLP Indonesia AI)
 
-## Beta Demo  (Thanks to @shabir67)
-![ezgif-2-0c6c76e073](https://github.com/user-attachments/assets/9490d98f-56b2-46ca-9348-a51ae2c20893)
-
 ## Data Source:
 - Raw dataset (PDF): [RUU Cipta Kerja](https://ekon.go.id/source/info_sektoral/RUU%20Cipta%20Kerja.pdf)
 
 ## Train Fine-Tune LLM (with LoRA):
 - Model base: "sarahlintang/mistral-indo-7b"
 - Fine Tuned model: https://huggingface.co/Willy030125/CiptakerLM-v1
+
+## Beta Demo  (Thanks to @shabir67)
+![ezgif-2-0c6c76e073](https://github.com/user-attachments/assets/9490d98f-56b2-46ca-9348-a51ae2c20893)
 
 ## Retrieval Augmented Generation (RAG) testing:
 - RAG model: "llama3.1"
