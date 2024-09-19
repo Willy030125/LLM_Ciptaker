@@ -5,6 +5,7 @@
 
 ## Data Source:
 - Raw dataset (PDF): [RUU Cipta Kerja](https://ekon.go.id/source/info_sektoral/RUU%20Cipta%20Kerja.pdf)
+- QA-Generated pairs: <a href="https://github.com/Willy030125/LLM_Ciptaker/blob/main/Notebook/Ciptaker-sft-data-preparation.ipynb">SFT data prep Notebook</a>
 
 ## Train Fine-Tune LLM (with LoRA):
 - Model base: "sarahlintang/mistral-indo-7b"
