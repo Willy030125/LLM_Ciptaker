@@ -1,6 +1,6 @@
-# LLM_INDONESIA_EMPLOYMENT_LAW
+# LLM_Ciptaker (Final Project NLP Indonesia AI)
 
-## Beta Demo
+## Beta Demo  (Thanks to @shabir67)
 ![ezgif-2-0c6c76e073](https://github.com/user-attachments/assets/9490d98f-56b2-46ca-9348-a51ae2c20893)
 
 ## Train:
@@ -8,7 +8,7 @@
 - RAG model: "llama3.1"
 - Model base: "sarahlintang/mistral-indo-7b"
 
-## FE
+## Frontend
 - Pre-requisites: Node version v20.17.0
 
 ### Quick Run:
@@ -25,7 +25,7 @@ cd FE
 npm install -g serve
 serve -s build
 ```
-## BE
+## Backend
 To run the backend:
 ```bash
 cd BE
@@ -44,7 +44,7 @@ For the complete guide (recommended to use Conda):
 ## Evaluation
 ### RAG:
 - Cosine similarity: 0.40
-### Fine-tune:
-- BLEU: 0.6164010763168335
-- ROUGE: 0.7134693037488239
+### Fine-Tune Eval:
 - Perplexity: 1.0561115741729736
+- ROUGE: 0.7134693037488239
+- BLEU: 0.6164010763168335
