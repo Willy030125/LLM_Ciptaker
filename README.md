@@ -3,10 +3,16 @@
 ## Beta Demo  (Thanks to @shabir67)
 ![ezgif-2-0c6c76e073](https://github.com/user-attachments/assets/9490d98f-56b2-46ca-9348-a51ae2c20893)
 
-## Train:
+## Data Source:
 - Raw dataset (PDF): [RUU Cipta Kerja](https://ekon.go.id/source/info_sektoral/RUU%20Cipta%20Kerja.pdf)
-- RAG model: "llama3.1"
+
+## Train Fine-Tune LLM (with LoRA):
 - Model base: "sarahlintang/mistral-indo-7b"
+- Fine Tuned model: https://huggingface.co/Willy030125/CiptakerLM-v1
+
+## Retrieval Augmented Generation (RAG) testing:
+- RAG model: "llama3.1"
+- Embedding model: "nomic-embed-text"
 
 ## Frontend
 - Pre-requisites: Node version v20.17.0
@@ -44,7 +50,7 @@ For the complete guide (recommended to use Conda):
 ## Evaluation
 ### RAG:
 - Cosine similarity: 0.40
-### Fine-Tune Eval:
+### Fine-Tuning LLM:
 - Perplexity: 1.0561115741729736
 - ROUGE: 0.7134693037488239
 - BLEU: 0.6164010763168335
