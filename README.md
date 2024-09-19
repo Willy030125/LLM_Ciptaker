@@ -13,6 +13,8 @@
 ## Retrieval Augmented Generation (RAG) testing:
 - RAG model: "llama3.1"
 - Embedding model: "nomic-embed-text"
+- RAG library: LangChain
+- Notebook: <a href="https://github.com/Willy030125/LLM_Ciptaker/blob/main/Notebook/Ciptaker-llama-RAG-langchain-unstructured.ipynb">here</a>
 
 ## Frontend
 - Pre-requisites: Node version v20.17.0
